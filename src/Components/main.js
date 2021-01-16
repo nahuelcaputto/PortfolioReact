@@ -4,7 +4,7 @@ import LandingPage from './landingPage';
 import AboutMe from './aboutMe';
 import Contact from './contact';
 import Resume from './resume';
-import Projects from './projects';
+import Projects from './Projects/projects';
 
 
 const Main = () => {
