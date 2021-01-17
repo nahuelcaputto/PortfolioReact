@@ -1,0 +1,11 @@
+.projects-section{
+    display:flex;
+    justify-content: center;
+
+}
+
+.card-actions{
+    display:flex;
+    justify-content:space-between;
+}
+

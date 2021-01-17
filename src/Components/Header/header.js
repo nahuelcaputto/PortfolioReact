@@ -1,4 +1,4 @@
-import '../..';
+import './header.css';
 import { Header, Navigation } from "react-mdl";
 import { Link } from 'react-router-dom';
 
