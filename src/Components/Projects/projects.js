@@ -16,8 +16,8 @@ export default function Projects() {
                         <CardTitle style={{color: '#fff', height: '176px', background: `url(${project.urlImage}) center / cover`}}> {project.name}</CardTitle>
                         <CardText>{project.descriptionES}</CardText>
                         <CardActions border className="card-actions">
-                            <Button colored href={project.github}>Github</Button>
-                            <Button colored href={project.urlPage}>Deploy</Button>
+                            {project.github?(<Button colored href={project.github}>Github</Button>):(<></>)}
+                            {project.urlPage?(<Button colored href={project.urlPage}>Deploy</Button>):(<></>)}      
                         </CardActions>
                         <CardMenu style={{ color: '#FFF' }}>
                             <IconButton name="share" />
