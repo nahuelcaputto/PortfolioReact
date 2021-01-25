@@ -8,7 +8,7 @@ const HeaderBar = () => {
             <Navigation>
                 <Link to="/">Inicio</Link>
                 <Link to="/aboutme">Sobre Mi</Link>
-                <Link to="/projects">Proyectos</Link>
+                <Link to="#projects">Proyectos</Link>
                 <Link to="/resume">CV</Link>
                 <Link to="/contact">Contacto</Link>
             </Navigation>
