@@ -9,6 +9,6 @@ strong{
   color: #ff4081;
 }
 
-a:link, a:visited, a:active {
-  text-decoration:none;
+a:hover,a:link, a:visited, a:active {
+  text-decoration:none !important;
 }
