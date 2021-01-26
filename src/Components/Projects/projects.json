@@ -29,7 +29,7 @@
         },
         {
             "name": "Personal portfolio",
-            "urlImage": "https://i.imgur.com/Zg0T9Kn.png",
+            "urlImage": "https://i.imgur.com/CGAEBmJ.png",
             "descriptionES": "Mi portfolio personal, hecho integramente con React",
             "descriptionEN": "My personal portfolio, made entirely with React ",
             "github": "https://github.com/nahuelcaputto/PortfolioReact",

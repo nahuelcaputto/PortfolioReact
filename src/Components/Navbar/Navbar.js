@@ -3,17 +3,20 @@ import { Link } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Navbar.css';
+import CV from '../../CV/Nahuel Caputto CV.pdf'
 
 export default function App() {
     const [sidebar, setSideBar] = useState(false)
-
     const showSideBar = () => setSideBar(!sidebar)
 
-    const homeScroll = () => Scroll.animateScroll.scrollToBottom()
+    //scrollers
+    const homeScroll = () => Scroll.scroller.scrollTo('Home', { offset: -100 })
+    const projectsScroll = () => Scroll.scroller.scrollTo('Projects', { offset: 50 })
+    const aboutScroll = () => Scroll.scroller.scrollTo('About', { offset: -350 })
 
     return (
         <>
-            <div className="navbar">
+            <div className={sidebar ? 'navbar' : 'navbar sticky-top'}>
                 <Link to="#" className='menu-bars'>
                     <i className="fa fa-bars" aria-hidden="true" onClick={showSideBar} />
                 </Link>
@@ -27,13 +30,28 @@ export default function App() {
                     </li>
                     <li className='navbar-toggle'>
                         <Link to='/' className='menu-items' onClick={homeScroll}>
-                            <span>Home</span>
+                            <span>Inicio</span>
+                        </Link>
+                    </li>
+                    <li className='navbar-toggle'>
+                        <Link to='/' className='menu-items' onClick={aboutScroll}>
+                            <span>About</span>
                         </Link>
                     </li>
                     <li className='navbar-toggle'>
                         <Link to='/' className='menu-items'>
-                            <span>About</span>
+                            <span>Contacto</span>
                         </Link>
+                    </li>
+                    <li className='navbar-toggle'>
+                        <Link to='/' className='menu-items' onClick={projectsScroll}>
+                            <span>Proyectos</span>
+                        </Link>
+                    </li>
+                    <li className='navbar-toggle'>
+                        <a href={CV} download className='menu-items'>
+                            <span>Descargar CV</span>
+                        </a>
                     </li>
                 </ul>
 
