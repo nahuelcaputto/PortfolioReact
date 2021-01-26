@@ -1,0 +1,13 @@
+.social-links{
+    display:flex;
+    justify-content: space-between;
+    width:50%;
+    margin:auto;
+    padding:1em;
+    margin-top:10em;
+}
+.social-links i{
+    color:black;
+    opacity:0.7;
+    font-size: 5em;
+}
