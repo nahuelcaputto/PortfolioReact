@@ -14,9 +14,10 @@
   
 .presentation{
     width:65%;
-    margin: auto;
+    margin-left: 10em;
+    margin-top:30em;
+    margin-bottom:20em;
     min-height: 100vh;
-    margin-top: 13em;
     border-radius: 15px;
     color: #060b26;
 
@@ -82,4 +83,10 @@ p {
   }
   .social i:hover{
     color:#fff;
+  }
+
+  section {
+    height: 100vh;
+    width: 100vw;
+    scroll-snap-align: start;
   }
