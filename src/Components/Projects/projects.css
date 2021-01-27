@@ -17,5 +17,9 @@
 }
 
 .projects-body{
-    min-height:250px;
+    min-height:270px;
+}
+
+.project-buttons{
+    height: 90px;
 }
