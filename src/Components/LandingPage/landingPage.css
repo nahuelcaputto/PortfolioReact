@@ -14,13 +14,9 @@
   
 .presentation{
     width:65%;
-    margin-left: 10em;
-    margin-top:30em;
-    margin-bottom:20em;
-    min-height: 100vh;
+    margin:20em auto 10em 15em;
     border-radius: 15px;
     color: #060b26;
-
 }
 
 .presentation h1{
@@ -58,6 +54,7 @@ p {
     top: 50%;
     right: 0px;
     transform: translateY(-50%);
+    z-index: 10;
   }
   .social a {
     display: flex;
@@ -72,6 +69,7 @@ p {
     border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     text-decoration: none;
+
   }
   .social a:hover {
     background-color: #ff4081;
@@ -88,5 +86,15 @@ p {
   section {
     height: 100vh;
     width: 100vw;
-    scroll-snap-align: start;
+    scroll-snap-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
   }
+
+  @media (max-width: 767px) { 
+    .projects-section{
+      scroll-snap-align: start;
+      height: 300vh;
+    }
+   }

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import "./projects.css";
 
 export default function Projects() {
@@ -8,24 +7,28 @@ export default function Projects() {
     return (
         <>
             <h1 className='title'>proyectos<strong>.</strong></h1>
-            <div className="projects-section">
+            <div className='container m-10'>
+                <div className='row row-cols-1  row-cols-md-3 row-cols-lg-4 '>
+                    {projects && projects.map((project, i) => (
 
-                {projects && projects.map((project, i) => (
-                    <Card key={i} shadow={5} className="card">
-                        <CardTitle style={{ color: '#FFF', textShadow: '2px 2px 5px #ff4081', fontWeight: 'bold', fontSize: '25px', height: '176px', alignItems: 'flex-end', background: `url(${project.urlImage}) center / cover` }}> {project.name}</CardTitle>
-                        <CardText className="card-text">{project.descriptionES}</CardText>
-                        <CardActions border className="card-actions">
-                            {project.github ? (<Button style={{ color: '#ff4081' }} colored href={project.github}>Github</Button>) : (<></>)}
-                            {project.urlPage ? (<Button colored href={project.urlPage}>Deploy</Button>) : (<></>)}
-                        </CardActions>
-                        <CardMenu style={{ color: '#fff' }}>
-                            <IconButton name="share" />
-                        </CardMenu>
-                    </Card>
+                        <div class="col m-2 project-card" key={i}>
+                            <div class="card">
+                                <img src={project.urlImage} class="card-img-top" alt="..." />
+                                <div class="card-body">
+                                    <h5 class="card-title">{project.name}</h5>
+                                    <p class="card-text">{project.descriptionES}</p>
+                                    <div className='d-flex justify-content-between'>
+                                        {project.github ? (<a href={project.github} class="btn btn-outline-primary mx-1">Github</a>) : (<></>)}
+                                        {project.urlPage ? (<a href={project.urlPage} class="btn btn-outline-primary mx-1">Deploy</a>) : (<></>)}
+                                    </div>
 
-                ))
-                }
-            </div >
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                    }
+                </div>
+            </div>
         </>
     )
 }

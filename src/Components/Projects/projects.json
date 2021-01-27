@@ -17,8 +17,8 @@
         {
             "name": "Veski App",
             "urlImage": "https://i.imgur.com/Zg0T9Kn.png",
-            "descriptionES": "Veski App es una billetera electrónica realizada con React Native, Moleculer, MySQL",
-            "descriptionEN": "Veski App is a e-wallet maded with React Native, Moleculer, NodeJs MySQL",
+            "descriptionES": "Veski App es una billetera electrónica realizada con React Native, Moleculer y MySQL",
+            "descriptionEN": "Veski App is a e-wallet maded with React Native, Moleculer, NodeJs and MySQL",
             "github": "https://github.com/nahuelcaputto/HenryBank-G05",
             "urlPage": "",
             "technologies": [
@@ -30,8 +30,8 @@
         {
             "name": "Personal portfolio",
             "urlImage": "https://i.imgur.com/CGAEBmJ.png",
-            "descriptionES": "Mi portfolio personal, hecho integramente con React",
-            "descriptionEN": "My personal portfolio, made entirely with React ",
+            "descriptionES": "Mi portfolio personal, hecho integramente con React y Bootstrap",
+            "descriptionEN": "My personal portfolio, made entirely with React and Bootstrap",
             "github": "https://github.com/nahuelcaputto/PortfolioReact",
             "urlPage": "https://portfolio.nahuelcaputto.vercel.app/",
             "technologies": [
