@@ -13,6 +13,7 @@ export default function App() {
     const homeScroll = () => Scroll.scroller.scrollTo('Home', { offset: -100 })
     const projectsScroll = () => Scroll.scroller.scrollTo('Projects', { offset: 50 })
     const aboutScroll = () => Scroll.scroller.scrollTo('About', { offset: 0 })
+    const certificationsScroll = () => Scroll.scroller.scrollTo('Certifications', { offset: 0 })
     const contactScroll = () => Scroll.scroller.scrollTo('Contact', { offset: -350 })
 
     return (
@@ -42,6 +43,11 @@ export default function App() {
                     <li className='navbar-toggle'>
                         <Link to='/' className='menu-items' onClick={projectsScroll}>
                             <span>Proyectos</span>
+                        </Link>
+                    </li>
+                    <li className='navbar-toggle'>
+                        <Link to='/' className='menu-items' onClick={certificationsScroll}>
+                            <span>Certificaciones</span>
                         </Link>
                     </li>
                     <li className='navbar-toggle'>
