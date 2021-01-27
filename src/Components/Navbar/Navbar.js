@@ -12,7 +12,7 @@ export default function App() {
     //scrollers
     const homeScroll = () => Scroll.scroller.scrollTo('Home', { offset: -100 })
     const projectsScroll = () => Scroll.scroller.scrollTo('Projects', { offset: 50 })
-    const aboutScroll = () => Scroll.scroller.scrollTo('About', { offset: -350 })
+    const aboutScroll = () => Scroll.scroller.scrollTo('About', { offset: 0 })
     const contactScroll = () => Scroll.scroller.scrollTo('Contact', { offset: -350 })
 
     return (

@@ -30,7 +30,7 @@ export default function Landing() {
                 <Projects />
             </section>
             <section>
-                <Element name="Copntact" />
+                <Element name="Contact" />
                 <Contact />
             </section>
         </div>
