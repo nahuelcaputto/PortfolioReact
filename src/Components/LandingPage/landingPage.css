@@ -97,4 +97,19 @@ p {
       scroll-snap-align: start;
       height: 300vh;
     }
+    .about-section{
+      scroll-snap-align: start;
+      height: 200vh;
+    }
+    .presentation{
+      margin:auto
+    }
+   }
+
+
+   @media (max-width: 990px) { 
+    .about-section{
+      scroll-snap-align: center;
+      height: 200vh;
+    }
    }

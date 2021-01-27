@@ -21,7 +21,7 @@ export default function Landing() {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="about-section">
                 <Element name="About" />
                 <AboutMe />
             </section>
