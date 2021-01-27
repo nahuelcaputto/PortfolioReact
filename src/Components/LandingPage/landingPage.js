@@ -3,8 +3,10 @@ import Projects from '../Projects/projects'
 import AboutMe from '../AboutMe/aboutMe'
 import Contact from '../Contact/contact'
 import AtachBar from './atachBar'
+import Certifications from '../Certifications/certifications';
 import './landingPage.css'
 import { Element } from 'react-scroll'
+
 
 export default function Landing() {
     return (
@@ -13,7 +15,7 @@ export default function Landing() {
             <section >
                 <Element name="Home" />
                 <div className="presentation">
-                    <h1>Hola<strong>.</strong></h1>
+                    <h1>Hola<strong className="pres-dot">.</strong></h1>
                     <div className="presentation-sub">
                         <p>mi nombre es <strong>Nahuel</strong></p>
                         <p>soy un <strong>desarrollador web full stack</strong></p>
@@ -28,6 +30,10 @@ export default function Landing() {
             <section className="projects-section">
                 <Element name="Projects" />
                 <Projects />
+            </section>
+            <section className="certifications-section">
+                <Element name="Certifications" />
+                <Certifications />
             </section>
             <section>
                 <Element name="Contact" />

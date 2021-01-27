@@ -8,15 +8,17 @@ export default function Projects() {
         <>
             <h1 className='title'>proyectos<strong>.</strong></h1>
             <div className='container m-10'>
-                <div className='row row-cols-1  row-cols-md-3 row-cols-lg-4 '>
+                <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 card-deck'>
                     {projects && projects.map((project, i) => (
 
-                        <div class="col m-2 project-card" key={i}>
-                            <div class="card">
-                                <img src={project.urlImage} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <h5 class="card-title">{project.name}</h5>
-                                    <p class="card-text">{project.descriptionES}</p>
+                        <div className="col project-card my-2" key={i}>
+                            <div className="card shadow">
+                                <div className="img-container">
+                                    <img className="card-img img-fluid" src={project.urlImage} class="card-img-top" alt="..." />
+                                </div>
+                                <div className="card-body projects-body">
+                                    <h5 className="card-title">{project.name}</h5>
+                                    <p className="card-text">{project.descriptionES}</p>
                                     <div className='d-flex justify-content-between'>
                                         {project.github ? (<a href={project.github} class="btn btn-outline-primary mx-1">Github</a>) : (<></>)}
                                         {project.urlPage ? (<a href={project.urlPage} class="btn btn-outline-primary mx-1">Deploy</a>) : (<></>)}

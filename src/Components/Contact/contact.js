@@ -9,8 +9,8 @@ export default function Contacts() {
                 <div className="social-links d-flex justify-content-around">
                     {/* mailto */}
                     <a href="mailto: nahuelmartinc@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fas fa-envelope-square m-2" aria-hidden="true" /
-                        ></a>
+                        <i className="fas fa-envelope-square m-2" />
+                    </a>
                     {/* github */}
                     <a href="https://github.com/nahuelcaputto" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-github-square m-2" aria-hidden="true" />

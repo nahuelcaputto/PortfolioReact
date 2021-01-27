@@ -17,17 +17,16 @@ export default function AboutMe() {
                     <p>
                         Soy un desarrollador web full stack jr viviendo en Buenos Aires.
                         
-                        Tengo experiencia de 5 años en desarrollo GeneXus y manejo de bases de datos SQL 
+                        Tengo experiencia de 5 años en desarrollo GeneXus con manejo de bases de datos SQL 
                         y un año de experiencia como tester funcional.
 
                         Por diversos motivos elegí formarme en nuevas tecnologías y empecé a investigar 
                         todo lo relacionado con el desarrollo de aplicaciones y paginas web.
-
-                        Acabo de terminar el bootcamp de Henry y mi meta es seguir aprendiendo 
-                        todos los dias un poco mas. 
                         
                         Soy muy autodidacta y estoy muy entrenado en aprender y aplicar cosas nuevas todo el tiempo.
-
+                        
+                        Acabo de terminar el bootcamp de Henry y mi meta es seguir aprendiendo 
+                        todos los dias un poco mas. 
                     </p>
                     <a className="down-cv"href={CV} download>
                         <strong>Descargar CV</strong>
