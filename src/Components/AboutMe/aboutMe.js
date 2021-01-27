@@ -5,15 +5,15 @@ import CV from '../../CV/Nahuel Caputto CV.pdf'
 
 export default function AboutMe() {
     return (
-        <div className="about-container container-fluid">
+        <div className="container my-5">
             <div className='row'>
-                <h1 className='col-12'>sobre mi<strong>.</strong></h1>
+                <h1 className='col-12 m-5'>sobre mi<strong>.</strong></h1>
                 <div className='col-sm-12 col-md-6'>
-                    <img className="profile-pic" src={profilePic} alt='profile-pic' />
+                    <img className="ml-1" src={profilePic} alt='profile-pic' />
                 </div>
-                <div className="about-text col-sm-12 col-md-6">
+                <div className="about-text col-sm-12 col-md-12 col-lg-6">
                     
-                    <h3>Full Stack Web Developer JR</h3>
+                    <h3>Full Stack Web Developer Jr</h3>
                     <p>
                         Soy un desarrollador web full stack jr viviendo en Buenos Aires.
                         
