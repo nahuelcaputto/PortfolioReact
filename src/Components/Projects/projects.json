@@ -2,9 +2,9 @@
     "projects": [
         {
             "name": "Ecommerce FunkoPops",
-            "urlImage": "https://i.imgur.com/samwvex.jpg",
-            "descriptionES": "Ecommerce de FunkoPops realizado con la pila de desarrollo PERN. PosgreSQL-Express-React-Node.",
-            "descriptionEN": "Ecommerce of FunkoPops maded in PERN development stack. PostgreSQL-Express-React-NodeJs.",
+            "urlImage": "https://i.imgur.com/samwvex.jpg?1",
+            "descriptionES": "Ecommerce de FunkoPops realizado con PERN (PosgreSQL-Express-React-Node)",
+            "descriptionEN": "Ecommerce of FunkoPops maded with PERN (PostgreSQL-Express-React-NodeJs)",
             "github": "https://github.com/nahuelcaputto/ecommerce-AstridToys",
             "urlPage": "http://astridtoys.herokuapp.com/",
             "technologies": [
@@ -19,7 +19,7 @@
             "urlImage": "https://i.imgur.com/Zg0T9Kn.png",
             "descriptionES": "Veski App es una billetera electrónica realizada con React Native, Moleculer y MySQL",
             "descriptionEN": "Veski App is a e-wallet maded with React Native, Moleculer, NodeJs and MySQL",
-            "github": "https://github.com/nahuelcaputto/HenryBank-G05",
+            "github": "https://github.com/nahuelcaputto/Veski-app",
             "urlPage": "",
             "technologies": [
                 "React Native",
@@ -29,10 +29,10 @@
         },
         {
             "name": "Personal portfolio",
-            "urlImage": "https://i.imgur.com/CGAEBmJ.png",
+            "urlImage": "https://i.imgur.com/CGAEBmJ.png?1",
             "descriptionES": "Mi portfolio personal, hecho integramente con React y Bootstrap",
             "descriptionEN": "My personal portfolio, made entirely with React and Bootstrap",
-            "github": "https://github.com/nahuelcaputto/PortfolioReact",
+            "github": "",
             "urlPage": "https://portfolio.nahuelcaputto.vercel.app/",
             "technologies": [
                 "React"

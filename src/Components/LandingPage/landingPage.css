@@ -34,6 +34,7 @@
 
 .presentation p {
   animation-name: slideRight;
+  animation-timing-function: ease-in;
 }
 
 .presentation p:nth-child(1) {
@@ -63,6 +64,7 @@
 
 .presentation h1{
   animation-duration:2s;
+  animation-timing-function: ease-in;
   animation-name: slideLeft;
   position: relative;
 }
@@ -72,8 +74,9 @@
   100%{right:0px;color:black}
 }
 
-.presentation strong{
-  animation-duration:3s;
+.pres-dot{
+  animation-duration:4s;
+  animation-timing-function: ease-in;
   animation-name: slideUp;
   position: relative;
 }
@@ -115,6 +118,9 @@
   }
   .social i:hover{
     color:#fff;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
   }
 
   section {
@@ -130,7 +136,7 @@
 
     .projects-section{
       scroll-snap-align: start;
-      height: 300vh;
+      height: 350vh;
     }
     .about-section{
       scroll-snap-align: start;
@@ -145,6 +151,10 @@
    @media (max-width: 990px) { 
     .about-section{
       scroll-snap-align: center;
-      height: 200vh;
+      height: 300vh;
+    }
+    .projects-section{
+      scroll-snap-align: start;
+      height: auto;
     }
    }
