@@ -19,7 +19,7 @@ export default function Landing() {
                     <div className="presentation-sub">
                         <p>mi nombre es <strong>Nahuel</strong></p>
                         <p>soy un <strong>desarrollador web full stack</strong></p>
-                        <p>de <strong>Buenos Aires</strong> para el Mundo</p>
+                        <p>de <strong>Buenos Aires</strong> para el mundo</p>
                     </div>
                 </div>
             </section>
