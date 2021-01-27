@@ -19,7 +19,7 @@ export default function Projects() {
                                 <div className="card-body projects-body">
                                     <h5 className="card-title">{project.name}</h5>
                                     <p className="card-text">{project.descriptionES}</p>
-                                    <div className='d-flex justify-content-between'>
+                                    <div className='d-flex justify-content-between align-items-end project-buttons'>
                                         {project.github ? (<a href={project.github} class="btn btn-outline-primary mx-1">Github</a>) : (<></>)}
                                         {project.urlPage ? (<a href={project.urlPage} class="btn btn-outline-primary mx-1">Deploy</a>) : (<></>)}
                                     </div>
