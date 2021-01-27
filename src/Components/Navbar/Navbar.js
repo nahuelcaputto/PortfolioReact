@@ -45,7 +45,7 @@ export default function App() {
                         </Link>
                     </li>
                     <li className='navbar-toggle'>
-                        <Link to='/' className='menu-items' onClick={projectsScroll}>
+                        <Link to='/' className='menu-items' onClick={contactScroll}>
                             <span>Contacto</span>
                         </Link>
                     </li>
