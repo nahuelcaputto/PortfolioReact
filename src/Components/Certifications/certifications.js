@@ -10,7 +10,7 @@ export default function Certifications() {
                 <h1 className="mt-5">Certificaciones<strong>.</strong></h1>
                 <div className="row row-cols-1  row-cols-md-2 row-cols-lg-2">
                     {certificates && certificates.map((cert, i) => (
-                        <div key={i} className="shadow my-1">
+                        <div key={i} className="shadow my-1 d-flex align-items-center">
                             <a href={cert.url}><img className="img-fluid" src={cert.urlImage} alt=""></img></a>
                         </div>
                     ))}
