@@ -12,29 +12,20 @@ export default function AboutMe() {
                     <img className="ml-1" src={profilePic} alt='profile-pic' />
                 </div>
                 <div className="about-text col-sm-12 col-md-12 col-lg-6">
-                    
+
                     <h3>Full Stack Web Developer Jr</h3>
                     <p>
-                        Soy un desarrollador web full stack jr viviendo en Buenos Aires.
-                        
-                        Tengo experiencia de 5 años en desarrollo GeneXus con manejo de bases de datos SQL 
-                        y un año de experiencia como tester funcional.
-
-                        Por diversos motivos elegí formarme en nuevas tecnologías y empecé a investigar 
-                        todo lo relacionado con el desarrollo de aplicaciones y paginas web.
-                        
-                        Soy muy autodidacta y estoy muy entrenado en aprender y aplicar cosas nuevas todo el tiempo.
-                        
-                        Acabo de terminar el bootcamp de Henry y mi meta es seguir aprendiendo 
-                        todos los dias un poco mas. 
+                        Me llamo <strong>Nahuel Caputto</strong>, vivo en la ciudad de <strong>Buenos Aires</strong>. Trabajé durante cinco años como desarrollador GeneXus y un año como tester funcional. Luego elegí formarme en nuevas tecnologías y empecé a investigar
+                        todo lo relacionado con el <strong>desarrollo de aplicaciones y paginas web.</strong> Recientemente obtuve la certificación de <strong>Full Stack Web Developer</strong> por parte del
+                        bootcamp de <strong>Henry</strong> y mi meta es seguir creciendo todos los dias un poco mas.
                     </p>
-                    <a className="down-cv"href={CV} download>
+                    <a className="down-cv" href={CV} download>
                         <strong>Descargar CV</strong>
                     </a>
                     <div>
                         <h2>tecnologías<strong>.</strong></h2>
-                        <p>Javascript | React | React Native | Redux | Node | Express</p>
-                        <p>Moleculer | Sequelize | GeneXus | PostgreSQL | MySQL</p>
+                        <p>Javascript <strong>|</strong> React <strong>|</strong> React Native <strong>|</strong> Redux <strong>|</strong> Node <strong>|</strong> Express</p>
+                        <p>Moleculer <strong>|</strong> Sequelize <strong>|</strong> GeneXus <strong>|</strong> PostgreSQL <strong>|</strong> MySQL</p>
                     </div>
 
                 </div>
