@@ -33,7 +33,7 @@
             "descriptionES": "Mi portfolio personal, hecho integramente con React y Bootstrap",
             "descriptionEN": "My personal portfolio, made entirely with React and Bootstrap",
             "github": "",
-            "urlPage": "https://portfolio.nahuelcaputto.vercel.app/",
+            "urlPage": "https://nahuelcaputto-portfolio.vercel.app/",
             "technologies": [
                 "React"
             ]
