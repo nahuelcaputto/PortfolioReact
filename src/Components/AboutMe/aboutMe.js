@@ -15,7 +15,7 @@ export default function AboutMe() {
     return (
         <div className="container my-5">
             <div className='row'>
-                <h1 className='col-12 m-5'
+                <h1 className='about-title'
                     data-aos="fade-right">
                     sobre mi<strong>.</strong>
                 </h1>
@@ -35,7 +35,7 @@ export default function AboutMe() {
                     <a className="down-cv" href={CV} download>
                         <strong>Descargar CV</strong>
                     </a>
-                    <div>
+                    <div data-aos="fade-left">
                         <h2>tecnologías<strong>.</strong></h2>
                         <p>Javascript <strong>|</strong> React <strong>|</strong> React Native <strong>|</strong> Redux <strong>|</strong> Node <strong>|</strong> Express</p>
                         <p>Moleculer <strong>|</strong> Sequelize <strong>|</strong> GeneXus <strong>|</strong> PostgreSQL <strong>|</strong> MySQL</p>
