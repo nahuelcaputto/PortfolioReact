@@ -12,8 +12,8 @@ export default function Contacts() {
     return (
         <div className="container" >
 
-            <h1 data-aos="fade-right">
-                Contacto<strong>.</strong>
+            <h1 className="contact-title" data-aos="fade-right">
+                contacto<strong>.</strong>
             </h1>
             <div className='row'>
                 <div className="social-links d-flex justify-content-around" data-aos="zoom-in-up" >

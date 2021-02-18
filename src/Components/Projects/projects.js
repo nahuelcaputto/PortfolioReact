@@ -13,7 +13,7 @@ export default function Projects() {
     });
     return (
         <>
-            <h1 className='title'
+            <h1 className='projects-title'
                 data-aos="fade-right"
                 data-aos-duration="600">
                 proyectos<strong>.</strong>
