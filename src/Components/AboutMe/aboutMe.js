@@ -2,16 +2,29 @@ import React from 'react';
 import profilePic from '../../images/about-img.png';
 import './aboutMe.css';
 import CV from '../../CV/Nahuel Caputto CV.pdf'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function AboutMe() {
+    AOS.init({
+        mirror: false,
+        once: false,
+        easing: 'ease-in-out',
+        duration: 600
+    });
     return (
         <div className="container my-5">
             <div className='row'>
-                <h1 className='col-12 m-5'>sobre mi<strong>.</strong></h1>
-                <div className='col-sm-12 col-md-6'>
+                <h1 className='col-12 m-5'
+                    data-aos="fade-right">
+                    sobre mi<strong>.</strong>
+                </h1>
+                <div className='col-sm-12 col-md-6'
+                    data-aos="fade-right">
                     <img className="ml-1" src={profilePic} alt='profile-pic' />
                 </div>
-                <div className="about-text col-sm-12 col-md-12 col-lg-6">
+                <div className="about-text col-sm-12 col-md-12 col-lg-6"
+                    data-aos="fade-left">
 
                     <h3>Full Stack Web Developer Jr</h3>
                     <p>
@@ -31,6 +44,6 @@ export default function AboutMe() {
                 </div>
             </div>
 
-        </div>
+        </div >
     )
 }
