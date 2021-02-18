@@ -14,9 +14,10 @@ export default function Certifications() {
     return (
         <>
             <div className="container mt-5">
-                <h1 className="Title"
+                <h1 className="cert-title"
                     data-aos="fade-right"
-                    data-aos-duration="600">Certificaciones<strong>.</strong>
+                    data-aos-duration="600">
+                    certificaciones<strong>.</strong>
                 </h1>
                 <div className="row row-cols-1  row-cols-md-2 row-cols-lg-2">
                     {certificates && certificates.map((cert, i) => (
