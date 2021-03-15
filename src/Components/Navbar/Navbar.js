@@ -37,7 +37,7 @@ export default function App() {
                     </li>
                     <li className='navbar-toggle'>
                         <Link to='/' className='menu-items' onClick={aboutScroll}>
-                            <span>About</span>
+                            <span>Sobre mi</span>
                         </Link>
                     </li>
                     <li className='navbar-toggle'>
