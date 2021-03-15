@@ -13,8 +13,8 @@ export default function AtachBar() {
             <a href="https://www.linkedin.com/in/nahuel-caputto/" target="_blank" rel="noopener noreferrer">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a href="https://wa.me/+541162737766" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-whatsapp"></i>
+            <a href="https://t.me/nahuelcaputto" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-telegram"></i>
             </a>
         </div>
     )
