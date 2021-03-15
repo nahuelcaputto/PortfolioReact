@@ -25,15 +25,15 @@ export default function Contacts() {
 
                     {/* github */}
                     <a href="https://github.com/nahuelcaputto" target="_blank" rel="noopener noreferrer">
-                        <i className="fa fa-github-square m-2" aria-hidden="true" />
+                        <i className="fa fa-github m-2" aria-hidden="true" />
                     </a>
                     {/* linkedin */}
                     <a href="https://www.linkedin.com/in/nahuel-caputto/" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-linkedin-square m-2" aria-hidden="true" />
                     </a>
                     {/* whatsapp */}
-                    <a href="https://wa.me/+541162737766" target="_blank" rel="noopener noreferrer">
-                        <i className="fab fa-whatsapp-square m-2" aria-hidden="true" />
+                    <a href="https://t.me/nahuelcaputto" target="_blank" rel="noopener noreferrer">
+                        <i className="fa fa-telegram m-2" aria-hidden="true" />
                     </a>
                 </div>
             </div>
