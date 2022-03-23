@@ -1,18 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Projects from "../Projects/projects";
 import AboutMe from "../AboutMe/aboutMe";
 import Contact from "../Contact/contact";
 import AtachBar from "./atachBar";
 import Certifications from "../Certifications/certifications";
 import { Element } from "react-scroll";
+import ToggleDarkMode from "./toggleDarkMode";
 
 export default function Landing() {
+  const [currentTheme, setCurrentTheme] = useState("");
+
+  useEffect(() => {
+    const theme = localStorage.getItem("theme");
+    setCurrentTheme(theme);
+  }, []);
+
   return (
-    <div style={{ width: "100%", margin: "auto" }}>
+    <div
+      className={`bg-${currentTheme}`}
+      style={{ width: "100%", margin: "auto" }}
+    >
       <AtachBar />
       <section>
         <Element name="Home" />
         <div className="presentation">
+          {/* <ToggleDarkMode
+            currentTheme={currentTheme}
+            setCurrentTheme={setCurrentTheme}
+          /> */}
           <h1>
             Hola<strong className="pres-dot">.</strong>
           </h1>
